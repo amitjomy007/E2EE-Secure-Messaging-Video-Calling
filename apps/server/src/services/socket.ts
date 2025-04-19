@@ -1,5 +1,8 @@
 import {Server, Socket} from "socket.io"
 
+//has constructor which creates a new socket server - io 
+// a initlistener which handles connections, events
+// get method which return io
 class SocketService {
     private _io: Server;
 
