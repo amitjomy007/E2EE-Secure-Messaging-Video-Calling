@@ -1,0 +1,9 @@
+* [33m5865d90[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m redis done, chat works, next work persistant storage
+* [33m50d16a2[m redis set, chat works, next todo persistence using database
+* [33m2a5822a[m chat works, redis set, next store data for persistence
+* [33m50227ed[m[33m ([m[1;31morigin/main[m[33m)[m documentation of code as comments
+* [33m1729aab[m socket connection esetablisedh
+* [33m6dcd0f1[m init\socket initialized
+* [33mce0a564[m feat(create-turbo): apply package-manager transform
+* [33m39acddb[m feat(create-turbo): apply official-starter transform
+* [33m40f0d8b[m initialization
