@@ -7,6 +7,7 @@ WebSocket.io
 Redis  
 Kafka  
 PostgreSQL  
+Prisma ORM  
 WebRTC
 
 # Turborepo starter
