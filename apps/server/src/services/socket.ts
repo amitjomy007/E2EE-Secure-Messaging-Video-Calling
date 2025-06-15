@@ -1,6 +1,7 @@
 import {Server, Socket} from "socket.io"
 import Redis from "ioredis"
 import * as dotenv from 'dotenv';
+import prismaClient from "./prisma";
 dotenv.config();
 //has constructor which creates a new socket server - io 
 // a initlistener which handles connections, events
@@ -53,9 +54,14 @@ class SocketService {
                 console.log("published to MESSAGES")
             })
         })
-        sub.on('message', (channel,message) => {
+        sub.on('message', async (channel,message) => {
             if(channel==="MESSAGES"){
                 io.emit('message', message)
+                await prismaClient.message.create({
+                    data: {
+                        text: message,
+                    }
+                })
             }
         })
     }
