@@ -124,7 +124,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "D:\\E2EE SECURE CHAT AND VIDEO CALL\\E2EE-Secure-Messaging-Video-Calling\\apps\\server\\src\\generated\\prisma",
+      "value": "D:\\E2EE SECURE CHAT AND VIDEO CALL\\E2EE-Secure-Messaging-Video-Calling\\node_modules\\server\\src\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -138,7 +138,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "D:\\E2EE SECURE CHAT AND VIDEO CALL\\E2EE-Secure-Messaging-Video-Calling\\apps\\server\\prisma\\schema.prisma",
+    "sourceFilePath": "D:\\E2EE SECURE CHAT AND VIDEO CALL\\E2EE-Secure-Messaging-Video-Calling\\node_modules\\server\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
