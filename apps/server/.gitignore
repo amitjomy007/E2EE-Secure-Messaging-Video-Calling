@@ -1,3 +1,11 @@
 node_modules
 # Keep environment variables out of version control
 .env
+
+
+# GPT Generated gitignore
+# not sure if this breaks everything 
+/src/generated/
+/prisma/dev.db
+/prisma/dev.db-journal
+/prisma/migrations/
